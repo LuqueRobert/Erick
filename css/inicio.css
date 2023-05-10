@@ -6,7 +6,7 @@ h1{
     color: darkblue;
 }
 body{
-    background-image: url("/img/pollo.jpg");
+    background-image: url("../img/pollo.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
