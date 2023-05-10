@@ -1,0 +1,46 @@
+a[href$=".html"]{
+    color: blue;
+}
+a[href^="https"]{
+    color: deepskyblue;
+}
+footer{
+    display: flex; /*para poder centrar y ordenar objetos, tmbn es util para apartados resposivos*/
+    flex-direction: column; /*poner los objetos en vertical*/
+    text-align: center;
+    width: 100%;
+}
+.redes{
+    display: flex;
+    justify-content: center; /*es para definir diferentes tipos de centrado de cajas o div*/
+    width: 100%;
+}
+.redes div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /*sirve para alinear objetos en el rango arriba, abajo y centro*/
+    background-color: white;
+    border-radius: 25px; /*para bordes de redondeado*/
+    padding: 10px; /**/
+    width: 65px;
+    margin: 10px 15px;
+}
+.redes div svg{
+    width: 50px;
+}
+.redes div.face:hover{
+    fill: blue;
+}
+.redes div.insta:hover{
+    fill: fuchsia;
+}
+.redes div.you:hover{
+    fill: red;
+}
+.redes div.twi:hover{
+    fill: cyan;
+}
+header{
+    text-align: center;
+}

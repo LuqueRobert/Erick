@@ -1,0 +1,21 @@
+p.letras{
+    font-family: cursive;
+}
+p.tamaño{
+    font-size: 16pt;
+}
+h1{
+    color: darkblue;
+}
+h2{
+    color: teal;
+}
+#lista{
+    color: firebrick;
+}
+body{
+    background-color: rgb(209, 234, 255);
+}
+.img{
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+p.tamaño{
+    font-size: 16pt;
+    color: white;
+}
+h1{
+    color: darkblue;
+}
+body{
+    background-image: url("/img/pollo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+section{
+    text-align: center;
+}
+

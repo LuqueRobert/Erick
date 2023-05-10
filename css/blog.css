@@ -1,0 +1,18 @@
+h1{
+    color: darkblue;
+}
+h2{
+    color: dodgerblue;
+}
+p.letras{
+    font-family: cursive;
+}
+p.tamaño{
+    font-size: 16pt;
+}
+body{
+    background-color: rgb(248, 227, 206);
+}
+.ima{
+    text-align: center;
+}
